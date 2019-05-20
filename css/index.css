@@ -1,3 +1,12 @@
+.btn {
+  background-color: #22283A;
+  color: #F6F6F6;
+  width: 100px;
+  text-align: center;
+  font-size: 1.8em;
+  border-radius: 5px;
+  padding: 7px;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -160,24 +169,29 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+html {
+  font-size: 62.5%;
+}
 .nav {
+  display: flex;
   margin: 20px;
   background: #F6F6F6;
   color: #454A59;
 }
 .nav h1 {
-  display: flex;
   justify-content: center;
+  font-size: 4em;
+  padding: 15px;
+  color: #23293B;
 }
 .nav .nav-content {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
+  align-content: center;
   justify-content: space-evenly;
+  padding: 15px;
 }
 .nav a {
   text-decoration: none;
-  display: flex;
+  font-size: 1.5em;
 }
 .nav a:visited {
   color: #454A59;
