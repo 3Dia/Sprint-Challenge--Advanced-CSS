@@ -1,3 +1,9 @@
+@phone {
+  max-width: 500px;
+  .sky {
+    display: none;
+  }
+}
 .btn {
   background-color: #22283A;
   color: #F6F6F6;
